@@ -221,6 +221,7 @@
 				ORGANIZATIONNAME = pushmote;
 				TargetAttributes = {
 					0F3B52501933B04D00468EE5 = {
+						DevelopmentTeam = 59GA228ENK;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -397,6 +398,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushmoteDemo/PushmoteDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -410,6 +413,7 @@
 					"$(PROJECT_DIR)/PushmoteDemo/PushmoteSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,6 +423,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushmoteDemo/PushmoteDemo-Prefix.pch";
 				INFOPLIST_FILE = "PushmoteDemo/PushmoteDemo-Info.plist";
@@ -427,6 +433,7 @@
 					"$(PROJECT_DIR)/PushmoteDemo/PushmoteSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -490,6 +497,7 @@
 				0F3B527F1933B04E00468EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F3B52801933B04E00468EE5 /* Build configuration list for PBXNativeTarget "PushmoteDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				0F3B52821933B04E00468EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
