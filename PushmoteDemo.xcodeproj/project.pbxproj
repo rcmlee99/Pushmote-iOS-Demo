@@ -26,6 +26,8 @@
 		0F3B528C1933B0BB00468EE5 /* libpushmote-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3B528B1933B0BB00468EE5 /* libpushmote-sdk.a */; };
 		0F3B528E1933B11C00468EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B528D1933B11C00468EE5 /* Main.storyboard */; };
 		0F3B52911933CFEB00468EE5 /* PSHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B52901933CFEB00468EE5 /* PSHMainViewController.m */; };
+		1B4FDC991A23FCDB00174B5C /* background_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FDC971A23FCDB00174B5C /* background_1.png */; };
+		1B4FDC9A1A23FCDB00174B5C /* background_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4FDC981A23FCDB00174B5C /* background_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		0F3B528D1933B11C00468EE5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0F3B528F1933CFEB00468EE5 /* PSHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHMainViewController.h; sourceTree = "<group>"; };
 		0F3B52901933CFEB00468EE5 /* PSHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHMainViewController.m; sourceTree = "<group>"; };
+		1B4FDC971A23FCDB00174B5C /* background_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_1.png; sourceTree = "<group>"; };
+		1B4FDC981A23FCDB00174B5C /* background_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 				0F3B528D1933B11C00468EE5 /* Main.storyboard */,
 				0F3B528F1933CFEB00468EE5 /* PSHMainViewController.h */,
 				0F3B52901933CFEB00468EE5 /* PSHMainViewController.m */,
+				1B4FDC971A23FCDB00174B5C /* background_1.png */,
+				1B4FDC981A23FCDB00174B5C /* background_2.png */,
 			);
 			path = PushmoteDemo;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 				0F3B528E1933B11C00468EE5 /* Main.storyboard in Resources */,
 				0F3B525F1933B04D00468EE5 /* InfoPlist.strings in Resources */,
 				0F3B52671933B04E00468EE5 /* Images.xcassets in Resources */,
+				1B4FDC9A1A23FCDB00174B5C /* background_2.png in Resources */,
+				1B4FDC991A23FCDB00174B5C /* background_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
