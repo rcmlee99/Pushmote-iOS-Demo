@@ -16,7 +16,9 @@ static NSString *const URL = @"https://api.pushmote.com/";
 - (void)viewDidLoad
 {
     //Custom force app key
-    [[NSUserDefaults standardUserDefaults] setObject:@"iEkjT" forKey:@"appKey"];
+    [[NSUserDefaults standardUserDefaults] setObject:@"iRybT" forKey:@"appKey"];
+    //Sydney custom key iEkjT
+    //Melbourne custom key iRybT
     
     [super viewDidLoad];
     [self.popoverButton addTarget:self action:@selector(nextButtonClick:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
